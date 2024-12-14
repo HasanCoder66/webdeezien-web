@@ -1,0 +1,27 @@
+@media (max-width: 639px) {
+
+    .topBox,
+    .midBox,
+    .bottomBox {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footerWrapper {
+        padding: 95px 10px !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .digitalText {
+        font-size: 32px;
+    }
+
+    .digitalText2 {
+        font-size: 20px;
+    }
+
+    .copyright {
+        flex-direction: column;
+    }
+}
